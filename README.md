@@ -1,6 +1,6 @@
 # Intro
 
-There are two versions of assignments for the CS143-Compiler course, This repo is my Java version solution.
+There are two versions of assignments for the CS143-Compiler course, this repo is my Java version solution.
 
 Course resources:
 
