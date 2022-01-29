@@ -5,7 +5,7 @@ for clfile in ../../examples/*.cl; do
     ../../bin/.i686/lexer $clfile > examples
     ./lexer $clfile > mine
     if diff examples mine; then
-        echo $clfile "passed"
+        echo "passed"
     fi
 done
 

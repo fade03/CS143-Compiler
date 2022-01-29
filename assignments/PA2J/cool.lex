@@ -230,9 +230,9 @@ WHITE_SPACE = [ \f\r\t]+
 
 <YYINITIAL>{INTEGERS}            { return new Symbol(TokenConstants.INT_CONST, AbstractTable.inttable.addString(yytext())); }
 
-<YYINITIAL>{OBJECT_ID}           { return new Symbol(TokenConstants.OBJECTID, AbstractTable.inttable.addString(yytext())); }
+<YYINITIAL>{OBJECT_ID}           { return new Symbol(TokenConstants.OBJECTID, AbstractTable.idtable.addString(yytext())); }
 
-<YYINITIAL>{TYPE_ID}             { return new Symbol(TokenConstants.TYPEID, AbstractTable.inttable.addString(yytext())); }
+<YYINITIAL>{TYPE_ID}             { return new Symbol(TokenConstants.TYPEID, AbstractTable.idtable.addString(yytext())); }
 
 <YYINITIAL>{WHITE_SPACE}         { /* Do Noting */ }
 
