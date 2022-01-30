@@ -10,9 +10,6 @@ Course resources:
 
 - You can download the student-dist in [edx.org](https://courses.edx.org/asset-v1%3AStanfordOnline%2BSOE.YCSCS1%2B1T2020%2Btype%40asset%2Bblock%40student-dist.tar.gz).
 
-Here are my notes: 
-- [Lexical Analysis](https://www.wolai.com/6tSHdusbr1vidwU9EvbLh3)
-- [Parsing](https://www.wolai.com/uDhUNDns7h4EHzwyd3jNiK)
 
 # PA
 ## PA2J
