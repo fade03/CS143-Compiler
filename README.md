@@ -34,6 +34,8 @@ To test if the lexer generated works, you can run `diff.sh` which compares the o
 ```
 
 ## PA3J
+The grammar of COOL language has been given in [cool-manual.pdf](handouts/cool-manual.pdf), so all we need to focus on is precedence and error-handing. Besides, do not worry that our own parser and the standard parser output the different line number.
+
 First of all, if you didn't use the virtual machine given by teacher, you should install the `CUP` in your own machine:
 ```
 > apt-get install cup
